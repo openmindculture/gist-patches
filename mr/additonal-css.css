@@ -1,0 +1,7 @@
+/* Improve accessibility of existing mouse over submenus */
+/* Tastaturnavigation der Untermenüs ermöglichen */
+#primary-menu .menu-item a:focus + .sub-menu {
+  display: block !important;
+  height: auto !important;
+  opacity: 1 !important;
+}
