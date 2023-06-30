@@ -5,3 +5,12 @@
   height: auto !important;
   opacity: 1 !important;
 }
+
+/* Workaround gegen defektes mobile menu icon */
+
+.responsive-navigation .fi-list::before {
+  content: "B";
+  font-family: iconvault,founddation-icons,Glyphter;
+  margin-right: -24px;
+  margin-top: 8px;
+}
